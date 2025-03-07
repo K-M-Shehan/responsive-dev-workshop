@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.box {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #000;
+  font-size: 40px;
+}
+
+/* min-width */
+/* “When the screen width is 600px or more” */
+@media (min-width: 600px) {
+  .box {
+    background-color: #d4edda;
+    border-color: #28a745;
+  }
+}
+
+/*  max-width */
+/* “When the screen width is 599px or less” */
+@media (max-width: 599px) {
+  .box {
+    background-color: #f8d7da;
+    border-color: #dc3545;
+  }
+}
