@@ -18,3 +18,15 @@ body {
   font-size: 1.2em;
   transition: background 0.3s, padding 0.3s;
 }
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    background-color: lightpink;
+  }
+}
